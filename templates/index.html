@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Youtube Comments Analysis App</h1>
+    <form method="post">
+        <label for="api_key">API Key:</label>
+        <input type="text" id="api_key" name="api_key" required>
+        <label for="channel_id">Channel ID:</label>
+        <input type="text" id="channel_id" name="channel_id" required>
+        <button type="submit">Process</button>
+    </form>
+</body>
+</html>

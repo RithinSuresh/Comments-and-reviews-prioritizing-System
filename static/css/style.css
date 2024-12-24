@@ -1,0 +1,181 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #0073e6;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 10px 0;
+    display: block;
+    color: #666;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.left {
+    max-width: 50%;
+}
+
+.right {
+    max-width: 50%;
+}
+
+img {
+    width: 100%;
+    max-width: 100%; 
+    display: block;
+    margin-bottom: 20px;
+}
+
+pre {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    overflow: auto;
+    width: 100%; 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+} */
+
+/* Basic setup and styling for overall body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean and modern font */
+    background-color: #f8f9fa; /* Soft, light gray background for less strain on the eyes */
+    margin: 0;
+    padding: 20px;
+    color: #343a40; /* Slightly darker gray for better readability */
+}
+
+/* Header styles */
+h1 {
+    color: #007bff; /* Bright blue for a vibrant, noticeable header */
+    font-size: 24px; /* Slightly larger font size for headers */
+    margin-bottom: 20px; /* Add space below headers */
+}
+
+/* Form styling for better UI */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 115, 230, 0.15); /* Softer shadow with a blue tint */
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Improved label readability */
+label {
+    margin: 10px 0;
+    display: block;
+    color: #495057; /* Darker grey for better contrast */
+    font-weight: 500; /* Medium font weight for clarity */
+}
+
+/* Input fields styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ced4da; /* Slightly thicker and lighter border */
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Inner shadow for depth */
+}
+
+/* Button enhancements */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover for interactive feel */
+}
+
+/* Container and section layout adjustments */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.left {
+    max-width: 50%;
+}
+
+.right {
+    max-width: 50%;
+}
+
+/* Image and preformatted text styling */
+img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+pre {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
